@@ -1,1 +1,15 @@
+name: SpinningCoin
+version: 2.0
+main: SpinningCoin\Main
+api: 5.0.0
+author: xXKHaLeD098Xx/Darlexx
+depend: [EconomyAPI]
 
+commands:
+  spinningcoin:
+    description: "Usespinningcoincommand"
+    permission: spinningcoin.use
+
+permissions:
+  spinningcoin.use:
+    default: op
